@@ -1,0 +1,12 @@
+version: '3.1'
+services:
+  portal:
+    container_name: signal
+    image: signal
+    ports:
+      - "26460:26460"
+    volumes:
+      - ./volumes/logs:/logs
+      - ./volumes/config:/config
+    restart: always
+    network_mode: "host"

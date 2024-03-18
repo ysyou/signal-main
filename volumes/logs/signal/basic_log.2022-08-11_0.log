@@ -1,0 +1,63 @@
+22-08-11 13:49:51 INFO  [main] [SignalApplication:55] - Starting SignalApplication v1.0.0 using Java 1.8.0_212 on 9e6f1b57d707 with PID 1 (/app.jar started by root in /)
+22-08-11 13:49:51 INFO  [main] [SignalApplication:646] - The following 1 profile is active: "test"
+22-08-11 13:49:54 INFO  [main] [RepositoryConfigurationDelegate:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+22-08-11 13:49:54 INFO  [main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+22-08-11 13:49:54 INFO  [main] [RepositoryConfigurationExtensionSupport:349] - Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.clamos.signal.repository.WebsocketDeviceRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+22-08-11 13:49:54 INFO  [main] [RepositoryConfigurationExtensionSupport:349] - Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.clamos.signal.repository.WebsocketWebRpository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+22-08-11 13:49:54 INFO  [main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 357 ms. Found 2 JPA repository interfaces.
+22-08-11 13:49:54 INFO  [main] [RepositoryConfigurationDelegate:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+22-08-11 13:49:54 INFO  [main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+22-08-11 13:49:54 INFO  [main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.clamos.signal.repository.EventsRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+22-08-11 13:49:54 INFO  [main] [RepositoryConfigurationExtensionSupport:349] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.clamos.signal.media.repository.MediaServerTbRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+22-08-11 13:49:54 INFO  [main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 13 ms. Found 2 Redis repository interfaces.
+22-08-11 13:49:55 INFO  [main] [GenericScope:283] - BeanFactory id=c882dd56-f539-3200-813b-08eb415817d4
+22-08-11 13:49:56 INFO  [main] [TomcatWebServer:108] - Tomcat initialized with port(s): 26460 (http)
+22-08-11 13:49:56 INFO  [main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-26460"]
+22-08-11 13:49:56 INFO  [main] [StandardService:173] - Starting service [Tomcat]
+22-08-11 13:49:56 INFO  [main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.58]
+22-08-11 13:49:56 INFO  [main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+22-08-11 13:49:56 INFO  [main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 5612 ms
+22-08-11 13:49:57 INFO  [main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+22-08-11 13:49:57 INFO  [main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.5.Final
+22-08-11 13:49:57 INFO  [main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+22-08-11 13:49:57 INFO  [main] [HikariDataSource:110] - HikariPool-1 - Starting...
+22-08-11 13:49:57 INFO  [main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+22-08-11 13:49:57 INFO  [main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB106Dialect
+22-08-11 13:49:58 INFO  [main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22-08-11 13:49:58 INFO  [main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+22-08-11 13:49:58 WARN  [main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+22-08-11 13:49:59 INFO  [main] [FeignClientFactoryBean:418] - For 'pc' URL not provided. Will try picking an instance via load-balancing.
+22-08-11 13:50:01 INFO  [main] [DiscoveryClientOptionalArgsConfiguration:68] - Eureka HTTP Client uses RestTemplate.
+22-08-11 13:50:01 WARN  [main] [LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82] - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+22-08-11 13:50:01 INFO  [main] [InstanceInfoFactory:67] - Setting initial instance status as: STARTING
+22-08-11 13:50:01 INFO  [main] [DiscoveryClient:372] - Initializing Eureka in region us-east-1
+22-08-11 13:50:01 INFO  [main] [ConfigClusterResolver:43] - Resolving eureka endpoints via configuration
+22-08-11 13:50:01 INFO  [main] [DiscoveryClient:1007] - Disable delta property : false
+22-08-11 13:50:01 INFO  [main] [DiscoveryClient:1008] - Single vip registry refresh property : null
+22-08-11 13:50:01 INFO  [main] [DiscoveryClient:1009] - Force full registry fetch : false
+22-08-11 13:50:01 INFO  [main] [DiscoveryClient:1010] - Application is null : false
+22-08-11 13:50:01 INFO  [main] [DiscoveryClient:1011] - Registered Applications size is zero : true
+22-08-11 13:50:01 INFO  [main] [DiscoveryClient:1013] - Application version is -1: true
+22-08-11 13:50:01 INFO  [main] [DiscoveryClient:1097] - Getting all instance registry info from the eureka server
+22-08-11 13:50:02 INFO  [main] [DiscoveryClient:1106] - The response status is 200
+22-08-11 13:50:02 INFO  [main] [DiscoveryClient:1321] - Starting heartbeat executor: renew interval is: 30
+22-08-11 13:50:02 INFO  [main] [InstanceInfoReplicator:60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+22-08-11 13:50:02 INFO  [main] [DiscoveryClient:492] - Discovery Client initialized at timestamp 1660193402238 with initial instances count: 5
+22-08-11 13:50:02 INFO  [main] [EurekaServiceRegistry:41] - Registering application SIGNAL with eureka with status UP
+22-08-11 13:50:02 INFO  [main] [DiscoveryClient:1352] - Saw local status change event StatusChangeEvent [timestamp=1660193402242, current=UP, previous=STARTING]
+22-08-11 13:50:02 INFO  [DiscoveryClient-InstanceInfoReplicator-0] [DiscoveryClient:873] - DiscoveryClient_SIGNAL/9e6f1b57d707:172.27.0.2:signal:26460: registering service...
+22-08-11 13:50:02 INFO  [main] [TomcatWebServer:220] - Tomcat started on port(s): 26460 (http) with context path ''
+22-08-11 13:50:02 INFO  [main] [EurekaAutoServiceRegistration:144] - Updating port to 26460
+22-08-11 13:50:02 INFO  [DiscoveryClient-InstanceInfoReplicator-0] [DiscoveryClient:882] - DiscoveryClient_SIGNAL/9e6f1b57d707:172.27.0.2:signal:26460 - registration status: 204
+22-08-11 13:50:02 INFO  [main] [SignalApplication:61] - Started SignalApplication in 12.673 seconds (JVM running for 13.354)
+22-08-11 13:50:02 INFO  [SpringApplicationShutdownHook] [EurekaServiceRegistry:62] - Unregistering application SIGNAL with eureka with status DOWN
+22-08-11 13:50:02 INFO  [SpringApplicationShutdownHook] [DiscoveryClient:1352] - Saw local status change event StatusChangeEvent [timestamp=1660193402799, current=DOWN, previous=UP]
+22-08-11 13:50:02 INFO  [DiscoveryClient-InstanceInfoReplicator-0] [DiscoveryClient:873] - DiscoveryClient_SIGNAL/9e6f1b57d707:172.27.0.2:signal:26460: registering service...
+22-08-11 13:50:02 INFO  [DiscoveryClient-InstanceInfoReplicator-0] [DiscoveryClient:882] - DiscoveryClient_SIGNAL/9e6f1b57d707:172.27.0.2:signal:26460 - registration status: 204
+22-08-11 13:50:02 INFO  [SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+22-08-11 13:50:02 INFO  [SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+22-08-11 13:50:02 INFO  [SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+22-08-11 13:50:02 INFO  [SpringApplicationShutdownHook] [DiscoveryClient:935] - Shutting down DiscoveryClient ...
+22-08-11 13:50:05 INFO  [SpringApplicationShutdownHook] [DiscoveryClient:971] - Unregistering ...
+22-08-11 13:50:05 INFO  [SpringApplicationShutdownHook] [DiscoveryClient:973] - DiscoveryClient_SIGNAL/9e6f1b57d707:172.27.0.2:signal:26460 - deregister  status: 200
+22-08-11 13:50:06 INFO  [SpringApplicationShutdownHook] [DiscoveryClient:960] - Completed shut down of DiscoveryClient
